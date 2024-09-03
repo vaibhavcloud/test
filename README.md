@@ -46,5 +46,5 @@ This repository provides a Docker-based environment configured with a robust set
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/clouddrove/devops-machine.git
+   git clone https://github.com/clouddrove-sandbox/devops-machine.git
    cd devops-machine
