@@ -47,7 +47,7 @@ This repository offers a comprehensive Docker-based environment configured with 
   - **Kubectl**: v1.31.0
   - **AWS CLI**: v2.17.33
   - **Azure CLI**: v2.63.0
-  - **GCloud CLI**: v489.0.0
+  - **GCloud CLI**: v490.0.0
   - **K9s**: v0.32.5
   - **TFSwitch**: v1.7.0
   - **OpenTofu**: v1.8.0
