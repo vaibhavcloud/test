@@ -55,6 +55,13 @@ This repository provides a Docker-based environment configured with a robust set
 
 ## 🛠 Build A Docker Image
 
-2. copy and paste this command(Dockerfile is located in .docker directory):
+2. Copy and paste this command(Dockerfile is located in .docker directory):
    ```bash
    docker build -t devops-machine .docker/  
+
+## 🔧 Running the DevOps Machine
+
+3. To start the DevOps machine, use the following command:
+
+   ```bash
+   make up  
