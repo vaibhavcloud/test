@@ -30,7 +30,7 @@ This repository offers a comprehensive Docker-based environment configured with 
 ## 🚀 Features
 
 - **Docker-Based Environment**:
-     - **Run all tools within an isolated Docker container.**
+     - Run all tools within an isolated Docker container.
 - **Phusion/baseimage (jammy-1.0.4)**
 - **SSH access enabled**
 - **Custom user 'ubuntu' with sudo privileges.**
@@ -55,7 +55,7 @@ This repository offers a comprehensive Docker-based environment configured with 
   - **Kubens**: v0.9.4
   - **ZSH**: Pre-configured with Oh My ZSH
 
-## Setup Dev-ops Machine
+## Setup DevOps Machine
 
 ##  Prerequisites
 - Docker and Docker Compose are installed on your host machine.
@@ -71,7 +71,7 @@ This repository offers a comprehensive Docker-based environment configured with 
 
 ## 🛠 Build A Docker Image
 
-1. Copy and paste this command(Dockerfile is located in .docker directory):
+1. Copy and paste this command (Dockerfile is located in .docker directory):
    ```bash
    docker build -t devops-machine .docker/  
 
@@ -82,7 +82,7 @@ This repository offers a comprehensive Docker-based environment configured with 
    ```bash
    make up  
 
-2. To access the Dev-ops Machine Run this command:
+2. To access the DevOps Machine Run this command:
 
 - You will be login as ubuntu user.
 - And no password is required for login.
