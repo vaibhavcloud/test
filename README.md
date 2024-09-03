@@ -84,8 +84,8 @@ This repository offers a comprehensive Docker-based environment configured with 
 
 2. To access the DevOps Machine Run this command:
 
-- You will be login as ubuntu user.
-- And no password is required for login.
+ - Login with user: ubuntu
+ - No password required.
 
    ```bash
    make ssh  
