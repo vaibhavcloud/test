@@ -30,6 +30,14 @@ This repository provides a Docker-based environment configured with a robust set
 ## 🚀 Features
 
 - **Docker-Based Environment**: Run all tools within an isolated Docker container.
+- **Phusion/baseimage (jammy-1.0.4)**
+- **SSH access enabled**
+- **Custom user 'ubuntu' with sudo privileges.**
+- **Zsh shell with Oh My Zsh framework and all necessary plugins.**
+- **Added aliase for tools command in aliases.conf file.**
+- **Mounted volumes in docker-compose file for persistence data.**
+- **Added extra shell configuration in extra.conf**
+- **Various development and operations and pre-installed tools with the latest version.** 
 - **Pre-installed Tools**:
   - **Terraform**: v1.9.0
   - **Ansible**: v10.3.0
