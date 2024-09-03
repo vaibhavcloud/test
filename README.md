@@ -25,15 +25,16 @@
 
 ---
 
-This repository provides a Docker-based environment configured with a robust set of DevOps tools, including Terraform, Ansible, Helm, and more. This environment is designed to streamline DevOps workflows, automate tasks, and enhance productivity.
+This repository offers a comprehensive Docker-based environment configured with a robust set of DevOps tools, including Terraform, Ansible, Helm, and many more. This environment is designed to streamline DevOps workflows, automate tasks, and enhance productivity..
 
 ## 🚀 Features
 
-- **Docker-Based Environment**: Run all tools within an isolated Docker container.
+- **Docker-Based Environment**:
+     - **Run all tools within an isolated Docker container.**
 - **Phusion/baseimage (jammy-1.0.4)**
 - **SSH access enabled**
 - **Custom user 'ubuntu' with sudo privileges.**
-- **Zsh shell with Oh My Zsh framework and all necessary plugins.**
+- **ZSH shell with Oh My Zsh framework and all necessary plugins.**
 - **Added aliase for tools command in aliases.conf file.**
 - **Mounted volumes in docker-compose file for persistence data.**
 - **Added extra shell configuration in extra.conf**
@@ -52,7 +53,13 @@ This repository provides a Docker-based environment configured with a robust set
   - **OpenTofu**: v1.8.0
   - **Kubectx**: v0.9.4
   - **Kubens**: v0.9.4
-  - **ZSH**: Pre-configured with Oh My Zsh
+  - **ZSH**: Pre-configured with Oh My ZSH
+
+## Setup Dev-ops Machine
+
+##  Prerequisites
+- Docker and Docker Compose are installed on your host machine.
+- Make utility.
 
 ## 🛠 Installation
 
@@ -61,24 +68,21 @@ This repository provides a Docker-based environment configured with a robust set
    git clone https://github.com/clouddrove-sandbox/devops-machine.git
    cd devops-machine
 
-##  Prerequisites
-- Docker and Docker Compose installed on your host machine.
-- Make utility.
 
 ## 🛠 Build A Docker Image
 
-2. Copy and paste this command(Dockerfile is located in .docker directory):
+1. Copy and paste this command(Dockerfile is located in .docker directory):
    ```bash
    docker build -t devops-machine .docker/  
 
 ## 🔧 Running the DevOps Machine
 
-3. To start the DevOps machine, use the following command:
+1. To start the DevOps machine, use the following command:
 
    ```bash
    make up  
 
-4. To access the Dev-ops Machine Run this command:
+2. To access the Dev-ops Machine Run this command:
 
 - You will be login as ubuntu user.
 - And no password is required for login.
