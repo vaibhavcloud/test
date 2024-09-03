@@ -48,6 +48,9 @@ This repository provides a Docker-based environment configured with a robust set
   - **Azure CLI**: v2.63.0
   - **GCloud CLI**: v489.0.0
   - **K9s**: v0.32.5
+  - **TFSwitch**
+  - **OpenTofu**
+  - **Kubectx**
   - **ZSH**: Pre-configured with Oh My Zsh
 
 ## 🛠 Installation
