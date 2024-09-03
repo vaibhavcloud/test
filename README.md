@@ -49,7 +49,7 @@ This repository provides a Docker-based environment configured with a robust set
    git clone https://github.com/clouddrove-sandbox/devops-machine.git
    cd devops-machine
 
-### Prerequisites
+##  Prerequisites
 - Docker and Docker Compose installed on your host machine.
 - Make utility.
 
