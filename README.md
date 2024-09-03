@@ -65,3 +65,13 @@ This repository provides a Docker-based environment configured with a robust set
 
    ```bash
    make up  
+
+4. To access the Dev-ops Machine Run this command:
+
+```bash
+   make ssh
+
+
+- This will login as ubuntu user
+- No password required for SSH access.
+
